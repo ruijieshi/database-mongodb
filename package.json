@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "mgeneratejs": "^0.5.1",
+    "mongodb": "^3.2.2"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
