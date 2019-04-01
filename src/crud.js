@@ -83,4 +83,6 @@ const crud = {
 // crud.sort();
 
 // The one below shows the record based on the time order, the first 10 inserted will show up
-crud.limit(10);
+// crud.limit(10);
+
+module.exports = crud;

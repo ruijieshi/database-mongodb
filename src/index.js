@@ -1,5 +1,6 @@
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/mydb";
+const crud = require('./crud.js');
 
 const app = {
   createDB : () => {
@@ -23,5 +24,6 @@ const app = {
   }
 };
 
-app.createDB();
-app.createCollection();
+// app.createDB();
+// app.createCollection();
+crud.limit(50);
